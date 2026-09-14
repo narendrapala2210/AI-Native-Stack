@@ -15,22 +15,21 @@
 | [`03.input_output_print_comments.md`](01_basics/03.input_output_print_comments.md) | **Input, Output, Print Formatting & Comments** | print() sep/end/flush, input(), comments, syntax errors | 3 Examples |
 | [`04.type_conversion_and_casting.md`](01_basics/04.type_conversion_and_casting.md) | **Type Conversion & Casting** | Implicit coercion, int/float/str/bool casting, ValueError traps | 3 Examples |
 
-### 02. Core Data Types & Structures (datatypes/{s.no}.{typename}.md)
+### 02. Core Data Types & Structures (`02_datatypes/{s.no}.{typename}.md`)
 
-| Module File | Topic & Concept Description | Key Concepts Covered | Practical Examples |
+| Module File | Topic & Concept Description | Key Concepts Covered & Built-in Methods | Practical Examples |
 | :--- | :--- | :--- | :---: |
-| [`01.integers_and_precision.md`](02_datatypes/01.integers_and_precision.md) | **Integers & Arbitrary Precision** | Unlimited precision, radix bases (bin/hex/oct), interning | 3 Examples |
-| [`02.floats_and_floating_point_math.md`](02_datatypes/02.floats_and_floating_point_math.md) | **Floats & Floating-Point Math** | IEEE 754 precision traps, math.isclose, nan/inf, Decimal | 3 Examples |
-| [`03.booleans_and_truth_evaluation.md`](02_datatypes/03.booleans_and_truth_evaluation.md) | **Booleans & Truth Value Testing** | int subclassing, truthiness matrix, short-circuit fallbacks | 3 Examples |
-| [`04.strings_indexing_and_slicing.md`](02_datatypes/04.strings_indexing_and_slicing.md) | **Strings: Indexing & Slicing** | Immutability, positive/negative indexing, [start:stop:step] | 3 Examples |
-| [`05.string_methods_and_manipulation.md`](02_datatypes/05.string_methods_and_manipulation.md) | **String Methods & Manipulation** | upper/lower, strip, replace, find, split, join | 3 Examples |
-| [`06.string_formatting_and_unicode.md`](02_datatypes/06.string_formatting_and_unicode.md) | **String Formatting & Unicode** | f-strings, format specifiers, ord(), chr(), ciphers | 3 Examples |
-| [`07.lists_creation_and_mutability.md`](02_datatypes/07.lists_creation_and_mutability.md) | **Lists: Creation & Mutability** | Dynamic arrays, in-place slice mutation, rotation | 3 Examples |
-| [`08.list_methods_and_nested_lists.md`](02_datatypes/08.list_methods_and_nested_lists.md) | **List Methods & Nested Lists (Matrices)** | append, extend, pop, sort, 2D matrix transposition | 3 Examples |
-| [`09.tuples_immutability_and_unpacking.md`](02_datatypes/09.tuples_immutability_and_unpacking.md) | **Tuples: Immutability & Unpacking** | Single item comma, dict keys, starred unpacking | 3 Examples |
-| [`10.sets_uniqueness_and_operations.md`](02_datatypes/10.sets_uniqueness_and_operations.md) | **Sets: Uniqueness & Operations** | Hashability, union, intersection, difference, Venn algebra | 3 Examples |
-| [`11.dictionaries_keys_and_values.md`](02_datatypes/11.dictionaries_keys_and_values.md) | **Dictionaries: Keys, Values & Views** | Key uniqueness/hashability, safe get(), dynamic views | 3 Examples |
-| [`12.dictionary_methods_and_nested_dicts.md`](02_datatypes/12.dictionary_methods_and_nested_dicts.md) | **Dictionary Methods & Nested Dictionaries** | update(), setdefault(), JSON trees, merge operator (|) | 3 Examples |
+| [`01.integers.md`](02_datatypes/01.integers.md) | **Integers (`int`)** | Arbitrary precision, radix bases (bin/hex/oct), interning, bit_length, bit_count, to_bytes, from_bytes | 3 Examples |
+| [`02.floats.md`](02_datatypes/02.floats.md) | **Floats (`float`)** | IEEE 754 precision traps, math.isclose, nan/inf, Decimal, is_integer, as_integer_ratio, hex, fromhex | 3 Examples |
+| [`03.complex_numbers.md`](02_datatypes/03.complex_numbers.md) | **Complex Numbers (`complex`)** | $a+bj$, real/imag attributes, conjugate(), cmath, Euler's formula | 3 Examples |
+| [`04.booleans.md`](02_datatypes/04.booleans.md) | **Booleans (`bool`)** | int subclassing, truthiness matrix, short-circuit fallbacks, sentinels | 3 Examples |
+| [`05.strings.md`](02_datatypes/05.strings.md) | **Strings (`str`)** | Immutability, slicing [start:stop:step], f-strings, Unicode & **ALL 45+ string methods** | 3 Examples |
+| [`06.lists.md`](02_datatypes/06.lists.md) | **Lists (`list`)** | Dynamic arrays, mutability, slicing, matrices & **ALL 11 list methods** | 3 Examples |
+| [`07.tuples.md`](02_datatypes/07.tuples.md) | **Tuples (`tuple`)** | Immutability, packing/unpacking (*rest), namedtuple, count, index | 3 Examples |
+| [`08.sets.md`](02_datatypes/08.sets.md) | **Sets (`set` & `frozenset`)** | Hash tables, uniqueness, Venn algebra & **ALL 17 set methods** | 3 Examples |
+| [`09.dictionaries.md`](02_datatypes/09.dictionaries.md) | **Dictionaries (`dict`)** | Hash tables, insertion order, JSON trees, merge ops (\|) & **ALL 11 dict methods** | 3 Examples |
+| [`10.bytes_and_bytearray.md`](02_datatypes/10.bytes_and_bytearray.md) | **Bytes, Bytearray & Memoryview** | Binary sequences, mutable buffers, zero-copy memoryview, magic numbers | 3 Examples |
+| [`11.none_type.md`](02_datatypes/11.none_type.md) | **The None Type (`NoneType`)** | Singleton identity (is None), mutable default argument trap, null coalescing | 3 Examples |
 
 ### 03. Operators & Expressions
 
